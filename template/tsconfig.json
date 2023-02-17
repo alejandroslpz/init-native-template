@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "types": ["@types/styled-components-react-native"],
+    "baseUrl": ".",
+    "paths": {
+      "~api": ["src/api"],
+      "~assets/*": ["src/assets/*"],
+      "~components": ["src/components"],
+      "~features/*": ["src/features/*"],
+      "~hooks": ["src/hooks"],
+      "~locales/*": ["src/locales/*"],
+      "~screens": ["src/screens"],
+      "~themes": ["src/themes"],
+      "~utilities": ["src/utilities"]
+    }
+  }
+}
