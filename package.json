@@ -1,5 +1,5 @@
 {
-  "name": "react-native-cli-template",
+  "name": "react-native-template-cli",
   "version": "0.0.1",
   "description": "Clean React Native template for a quick start with TypeScript.",
   "scripts": {
